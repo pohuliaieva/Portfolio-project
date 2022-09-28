@@ -348,6 +348,12 @@ p.small-desc {
     .col {
         flex: auto;
     }
+
+    .fb,
+    .tg,
+    .mail {
+        margin: 10px;
+    }
 }
 
 @media (min-width: 768px) {
