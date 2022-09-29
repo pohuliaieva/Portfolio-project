@@ -250,6 +250,7 @@ p.small-desc {
 .contact-icon {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .description-footer {
@@ -290,6 +291,12 @@ p.small-desc {
 .fa-solid:hover {
     font-size: 40px;
     color: #f70776;
+}
+
+.contact-icon ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -405,11 +412,12 @@ p.small-desc {
         flex: auto;
     }
 
-    .fb,
-    .tg,
-    .mail {
-        margin: 10px;
+
+
+    .contact-icon {
+        gap: 20px;
     }
+
 }
 
 @media (min-width: 768px) {
