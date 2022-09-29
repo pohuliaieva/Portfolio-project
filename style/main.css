@@ -22,6 +22,12 @@ body {
     margin-left: none;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
 .nav-item ul {
     display: flex;
     justify-content: space-between;
@@ -83,7 +89,7 @@ body {
 .btn-header {
     justify-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 0px;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -381,6 +387,10 @@ p.small-desc {
     margin-bottom: 50px;
 }
 
+.menu-cont {
+    padding: 20px 60px;
+}
+
 @media (max-width: 768px) {
 
     h1,
@@ -418,7 +428,8 @@ p.small-desc {
     .nav-logo {
         max-width: 100px;
         display: flex;
-        justify-content: start;
+        justify-content: center;
+        margin: auto;
     }
 
     p .description {
@@ -502,13 +513,44 @@ p.small-desc {
         gap: 20px;
     }
 
+
+}
+
+@media (max-width: 990px) {
+
+    .navbar-toggler,
+    .navbar {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: #000000;
+        max-width: 300px;
+    }
+
+    .nav-logo {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .navbar-toggler-icon {
+        color: #000000 !important;
+        height: 40px;
+        width: 40px;
+        background-color: #f70776;
+        display: flex;
+        border-color: #f70776;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
 }
 
 @media (min-width: 768px) {
     .btn-header {
 
         max-height: 50px;
-        margin-right: 20px;
+
     }
 
     .btn-header a {
