@@ -144,12 +144,53 @@ p.small-desc {
 
 }
 
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-img-top {
+    max-width: 100px;
+}
+
+
+.experience-name {
+    font-size: 25px;
+}
+
 .offer,
-.contact {
+.contact,
+.about-me {
     text-align: center;
     background: #141010;
     padding: 50px 0;
 }
+
+.experience {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    background-color: #141010;
+
+}
+
+.card-text {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+}
+
 
 .my-photo {
     width: 35%;
@@ -257,6 +298,21 @@ p.small-desc {
     h2 {
         font-size: 40px;
         max-width: 100%;
+    }
+
+    .experience {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-name {
+        font-size: 20px;
+    }
+
+    .card-img-top {
+        max-width: 50px;
+        margin-top: 30px;
     }
 
     .btn-header {
