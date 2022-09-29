@@ -299,6 +299,27 @@ p.small-desc {
     justify-content: center;
 }
 
+.projects-block-page {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+.other-prjct {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.year {
+    color: #f70776;
+    font-weight: 300;
+}
+
+.projects-block-page img {
+    border: 10px solid #f70776;
+}
+
 @media (max-width: 768px) {
 
     h1,
@@ -364,6 +385,8 @@ p.small-desc {
         justify-content: flex-end;
     }
 
+
+
     .description-block,
     .img-fluid {
 
@@ -394,7 +417,7 @@ p.small-desc {
 
     .btn-prjct {
 
-        max-width: 50%;
+        max-width: 100%;
         display: block;
         margin: auto;
         margin-bottom: 30px;
